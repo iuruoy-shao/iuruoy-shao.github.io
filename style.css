@@ -1,0 +1,84 @@
+:root {
+    --main-accent:#ff7b00;
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Fira Code;
+    src: url(fonts/Fira_Code/FiraCode-Regular.ttf);
+}
+@font-face {
+    font-family: Fira Code;
+    src: url(fonts/Fira_Code/FiraCode-Bold.ttf);
+    font-weight: bold;
+}
+
+body {
+    margin:0 auto;
+    max-width: 7.7in;
+    margin-top: 5vw
+}
+
+* {
+    font-size: 10pt;
+    margin-bottom: 0pt;
+    margin-top: 0pt;
+    line-height: 15pt;
+}
+
+#title {
+    text-align: center;
+    font-family: Fira Code;
+}
+
+ul.a>li::marker {
+    content: '⭔';
+    color: var(--main-accent);
+    font-weight: bold;
+}
+
+ul.b>li::marker {
+    content: '○'
+}
+
+ul.a>li {
+    padding-left: 5pt;
+}
+
+ul.b>li {
+    padding-left: 5pt;
+}
+
+ul.a {
+    padding-left: 10pt;
+}
+
+ul.b {
+    padding-left: 30pt
+}
+
+h1 {
+    text-transform: uppercase;
+    color: var(--main-accent);
+    font-family: Fira Code;
+}
+
+b {
+    font-family: Fira Code;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--main-accent)
+}
