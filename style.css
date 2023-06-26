@@ -79,7 +79,7 @@ b {
 
 a {
     color: black;
-    text-decoration: none;
+    text-decoration: underline dotted
 }
 
 a:hover {
