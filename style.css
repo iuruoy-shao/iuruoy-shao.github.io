@@ -28,15 +28,23 @@ body {
 }
 
 * {
-    font-size: 10pt;
+    font-size: inherit;
     margin-bottom: 0pt;
     margin-top: 0pt;
     line-height: 15pt;
 }
 
+body {
+    font-size: 10pt;
+}
+
 #title {
     text-align: center;
     font-family: Fira Code;
+}
+
+#title>p>b {
+    font-size: 12pt;
 }
 
 ul.a>li::marker {
@@ -79,7 +87,7 @@ b {
 
 a {
     color: black;
-    text-decoration: underline dotted
+    /* text-decoration: none */
 }
 
 a:hover {
