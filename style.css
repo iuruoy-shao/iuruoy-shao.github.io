@@ -23,7 +23,8 @@
 body {
     margin:0 auto;
     max-width: 7.7in;
-    margin-top: 5vw
+    margin-top: 5vw;
+    margin-bottom: 5vw
 }
 
 * {
@@ -68,6 +69,8 @@ h1 {
     text-transform: uppercase;
     color: var(--main-accent);
     font-family: Fira Code;
+    font-size: 12pt;
+    line-height: 18pt;
 }
 
 b {
@@ -80,5 +83,10 @@ a {
 }
 
 a:hover {
+    color: var(--main-accent)
+}
+
+#hl::marker {
+    content: "▞";
     color: var(--main-accent)
 }
