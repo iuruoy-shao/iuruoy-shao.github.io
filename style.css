@@ -100,3 +100,10 @@ a:hover {
     content: "▞";
     color: var(--main-accent)
 }
+
+#caption {
+    margin-top: 3vw;
+    text-align: right;
+    font-size: 8pt;
+    color: #AAA;
+}
