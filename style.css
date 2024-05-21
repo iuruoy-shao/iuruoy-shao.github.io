@@ -34,7 +34,7 @@ body {
     line-height: 15pt;
 }
 
-body {
+body, button {
     font-size: 10pt;
     font-family: Roboto;
 }
@@ -96,6 +96,17 @@ a:hover {
     color: var(--main-accent)
 }
 
+button {
+    background-color: #FFF;
+    cursor: pointer;
+    width: 100%;
+    border: None;
+    outline: None;
+    padding-left: 0;
+
+    text-align: left;
+}
+
 #hl::marker {
     content: "▞";
     color: var(--main-accent)
@@ -106,4 +117,15 @@ a:hover {
     text-align: right;
     font-size: 8pt;
     color: #AAA;
+}
+
+.collapsible:after {
+    content: '\25BE';
+    margin-left: 5px;
+}
+
+.collapsible.active:after {
+    content: '\25BE';
+    display: inline-block;
+    transform: rotate(180deg);
 }

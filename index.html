@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="/style.css" />
+        <script src="collapsing.js"></script>
     </head>
     
     <body>
@@ -12,8 +13,8 @@
             <p><b>Yourui Shao</b></p>
             <p>
                 <a href=mailto:"youruishao115022@gmail.com">youruishao115022@gmail.com</a> // 
-                <a href="https://github.com/iuruoy-shao">github.com/iuruoy-shao</a> // 
-                <a href="https://tinyurl.com/art-portfolio-ys">Art Portfolio (2023)</a>
+                <a href="https://github.com/iuruoy-shao">github.com/iuruoy-shao</a> 
+                <!-- <a href="https://tinyurl.com/art-portfolio-ys">Art Portfolio (2023)</a> -->
             </p>
         </div>
         <br>
@@ -27,51 +28,61 @@
                 <li>
                     4.00 UW GPA; 1580 SAT
                 </li>
+            </ul>
+            <ul class="a">
                 <li>
-                    Coursework: AP Chinese Language and Culture [5], AP Physics 1 [5], AP Physics 2 [5], AP U.S. Government and Politics [5], 
-                    AP United States History [5], AP Calculus AB [5], AP Calculus BC [5], AP Computer Science A [5]
+                    <button class="collapsible">Coursework</button>
                 </li>
+            </ul>
+            
+            <ul class="b" style="display: none">
+                <li>AP Physics C: Mechanics [N/A]</li>
+                <li>AP Physics C: Electricity and Magnetism [N/A]</li>
+                <li>AP Physics 2 [5]</li>
+                <li>AP Physics 1 [5]</li>
+
+                <li>Honors Chemistry</li>
+                <li>Honors Biology</li>
+
+                <li>AP Statistics [N/A]</li>
+                <li>AP Calculus BC [5]</li>
+                <li>AP Calculus AB [5]</li>
+
+                <li>AP Computer Science A [5]</li>
+                <li>AP Computer Science Principles [N/A]</li>
+
+                <li>AP Latin [N/A]</li>
+                <li>AP Chinese Language and Culture [5]</li>
+
+                <li>AP English Language and Composition [N/A]</li>
+                <li>AP World History [N/A]</li>
+                <li>AP United States History [5]</li>
+                <li>AP United States Government and Politics [5]</li>
+
+                <li>AP 2D Art and Design [N/A]</li>
             </ul>
         <br>
         
         <h1>Projects</h1>
             <ul class="a">
-                <li><a href="https://github.com/iuruoy-shao/training-problems">
+                <li><a href="https://www.problemstrainer.app/about">
                     (2023–) <b>AMC Problem Trainer</b>
-                     | NLP with HuggingFace Transformers, Flask Python framework, HTML/CSS, SQL
+                     | NLP, Flask, Python, HTML/CSS, SQL
                 </a></li>
             </ul>
             <ul class="b">
                 <li>
-                    Developing web application for recommending competition math problems to users based on difficulty, category, and user performance using Flask, Javascript, HTML/CSS, and SQL.
+                    Developed web app for recommending competition math problems to users based on difficulty, category, and user performance using Flask, Javascript, HTML/CSS, and SQL.
                 </li>
                 <li>
-                    UTrained Distilbert Natural Language Processing model on web-scraped AMC (American Mathematics Competitions) problems and online solutions text for multi-label classification (“Algebra”, “Number Theory”, “Geometry”, etc.) with 90% accuracy on 80-20 train-test split.
-                </li>
-                <li>
-                    Aiming for mid-December launch.
-                </li>
-            </ul>
-            
-            <ul class="a">
-                <li><a href="https://github.com/iuruoy-shao/FLO_water_analysis">
-                    (2022–) <b>Water Usage Analysis</b>
-                     | Python, SQL, ML, data analysis
-                </a></li>
-            </ul>
-            <ul class="b">
-                <li>
-                    Use data gathered by FLO by Moen water monitor and pyflowater API to breakdown household water usage into multiple categories through analyzing the PSI and GPM of water intake.
-                </li>
-                <li>
-                    Research and test hardware improvements to recommend water usage.
+                    Developed web app for recommending competition math problems to users based on difficulty, category, and user performance using Flask, Javascript, HTML/CSS, and SQL.
                 </li>
             </ul>
             
             <ul class="a">
                 <li><a href="https://github.com/iuruoy-shao/schedule-similarity">
                     (2023–) <b>Schedule Similarity</b>
-                     | Streamlit API, Python Pandas databases, web application
+                     | Streamlit API, Python
                 </a></li>
             </ul>
             <ul class="b">
@@ -83,7 +94,7 @@
             <ul class="a">
                 <li><a href="files/liu_shao.pdf">
                     (2023) <b>Senior Fall Detection</b>
-                     | Pose detection, vibration and camera sensors, data analysis
+                     | IoT ensors, data analysis
                 </a></li>
             </ul>
             <ul class="b">
@@ -106,14 +117,13 @@
         <h1>Activities</h1>
             <ul class="a">
                 <li id="hl"><a href="https://www.handsontechsv.org/">
-                    (2022–) <b>HandsOnTech Silicon Valley</b> | Co-founder, Lead Course Coordinator
+                    (2022–) <b>HandsOnTech Silicon Valley</b> | Co-founder
                 </a></li>
             </ul>
             <ul class="b">
-                <li>Cofounded organization with the mission to teach computer science skills with real-world applications using electrical engineering with the Raspberry Pi.</li>
-                <li>Directed over 150 hours of classes and instruction, training TAs and new instructors, managing staff responsibilities, and leading communications with students, parents, and staff.</li>
-                <li>Design course structure, write instructional materials, homework, group work, and exercises for such courses.</li>
-                <li>Lead TA recruiting, course marketing (e.g. farmers' market advertising), and community outreach campaigns.</li>
+                <li>Cofounded organization inspiring youth to pursue computer science through real-world programming applications using IoT technology.</li>
+                <li>Directed classes and instruction, trained TAs and instructors, and led communications between parties.</li>
+                <li>Reached over 90 students across more than 1000 hours of instruction.</li>
             </ul>
             
             <ul class="a">
@@ -122,14 +132,22 @@
                 </li>
             </ul>
             <ul class="b">
-                <li>Lead scheduling and events brainstorming, introduced methods for greatly improving member participation, delegate tasks for officers and maintaine correspondance with advisor.</li>
-                <li>Directed club promotion, created promotional material, and launched club website initiative.</li>
-                <li>Provide art services for nonprofits and school in student events, murals, and holiday pinups for students and staff.</li>
+                <li>Led club of over 40 artists to provide art services for nonprofits and school via events, murals, and other services.</li>
+                <li>Introduced methods for greatly improving member participation, delegated tasks for officers, and maintained correspondence with advisor.</li>
             </ul>
-            
+
             <ul class="a">
                 <li>
-                    (2021–) <b>Neuroscience Art Auction</b> | Art Director
+                    (2021–) <b>Key Club</b> | Editor
+                </li>
+            </ul>
+            <ul class="b">
+                <li>Maintain monthly newsletters and club updates, create graphics for social media, designed club merchandise, led member recruitment efforts.</li>
+            </ul>
+
+            <ul class="a">
+                <li>
+                    (2021–2023) <b>Neuroscience Art Auction</b> | Art Director
                 </li>
             </ul>
             <ul class="b">
@@ -137,20 +155,10 @@
                     Hold member meetings and track art volunteer progress; Created artworks for neuroscience research via auctioning artwork. ($5000+ raised during time of participation)
                 </li>
             </ul>
-
-            <ul class="a">
-                <li>
-                    (2021–) <b>Key Club</b> | Editor, Volunteer
-                </li>
-            </ul>
-            <ul class="b">
-                <li>Maintain monthly newsletters and club updates, create graphics for social media, designed club merchandise, led member recruitment efforts.</li>
-                <li>Lead, document, and participate in service meetings and activities for fundraisers and donations.</li>
-            </ul>
             
             <ul class="a">
                 <li>
-                    (2020–) <b>Upper School Math Circle</b> | Student, Contestant
+                    (2020–) <b>Upper School Math Circle</b> | Participant
                 </li>
             </ul>
             <ul class="b">
@@ -164,10 +172,7 @@
             </ul>
             <ul class="b">
                 <li>
-                    Built a four-legged robot capable of multidirectional movement with the Arduino and servos and designed the necessary 3D-printed parts over three weeks.
-                </li>
-                <li>
-                    Learned to use the Arduino and Solidworks (no former robotics experience).
+                    Built a four-legged robot capable of multidirectional movement with the Arduino and servos and designed the necessary 3D-printed parts over three weeks using Arduino and Solidworks.
                 </li>
             </ul>
             
@@ -180,12 +185,12 @@
                 </li>
             </ul>
             <ul class="b">
-                <li>Guide students with special needs (buddies) with making creative art projects to display (35+ hours).</li>
+                <li>Guide students with special needs (buddies) with making creative art projects to display (60+ hours).</li>
             </ul>
 
             <ul class="a">
                 <li>
-                    (2021–) <b>Calculus Peer Tutor</b>
+                    (2021–2023) <b>Calculus Peer Tutor</b>
                 </li>
             </ul>
             <ul class="b">
@@ -257,6 +262,6 @@
                     (2022) DECA SVCDC Business Administration Exam Gold Medal
                 </li> -->
             </ul>
-            <p id="caption">Last modified 9/29/2023. Made with HTML & CSS.</p>
+            <p id="caption">Last modified 5/20/2024. Made with HTML & CSS.</p>
     </body>
 </html>
