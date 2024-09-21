@@ -107,6 +107,10 @@ button {
     text-align: left;
 }
 
+#courses {
+    column-count: 2;
+}
+
 #hl::marker {
     content: "▞";
     color: var(--main-accent)
