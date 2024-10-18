@@ -133,3 +133,62 @@ button {
     display: inline-block;
     transform: rotate(180deg);
 }
+
+#c1 {
+    width: 35%;
+    margin-right: 10px;
+}
+
+#c2 {
+    width: 63.5%;
+}
+
+.column {
+    float: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    margin-bottom: 5px;
+    max-width: 100%;
+    object-fit: contain;
+    transition: opacity .3s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.4;
+}
+
+.img_wrapper {
+    position: relative;
+}
+
+.caption {
+    opacity: 0;
+}
+
+.title {
+    position: absolute;
+    left: 1em;
+    bottom: 12pt;
+    font-style: italic;
+}
+
+.description {
+    position: absolute;
+    left: 1em;
+    bottom: 24pt;
+    width: 18em;
+    line-height: 1em;
+    margin-bottom: 4pt;
+}
+
+.img_wrapper:hover .caption {
+    transition: opacity .8s;
+    opacity: 1;
+}
