@@ -135,12 +135,12 @@ button {
 }
 
 #c1 {
-    width: 30%;
+    width: 35%;
     margin-right: 1.5%;
 }
 
 #c2 {
-    width: 68.5%;
+    width: 63.5%;
 }
 
 .column {
@@ -161,7 +161,7 @@ img {
 }
 
 img:hover {
-    opacity: 0.4;
+    opacity: 0.6;
 }
 
 .img_wrapper {
@@ -182,8 +182,9 @@ img:hover {
 .description {
     position: absolute;
     left: 1em;
-    bottom: 24pt;
-    width: 18em;
+    bottom: 22pt;
+    width: inherit;
+    padding-right: 1em;
     line-height: 1em;
     margin-bottom: 4pt;
 }
