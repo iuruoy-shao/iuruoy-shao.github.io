@@ -55,7 +55,7 @@ ul.a>li::marker {
 }
 
 ul.b>li::marker {
-    content: '○'
+    content: '◦';
 }
 
 ul.a>li {
