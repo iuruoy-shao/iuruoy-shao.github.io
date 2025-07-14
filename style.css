@@ -217,3 +217,27 @@ video {
     transition: opacity .8s;
     opacity: 1;
 }
+
+.index {
+    margin-top: 1.5em;
+    list-style: none;
+    font-family: Fira Code;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+}
+
+.index > li {
+    padding: 2px 0;
+}
+
+#home {
+    margin: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
