@@ -1,19 +1,23 @@
 :root {
-    --main-accent:#ff7b00;
+    --main-accent: #ff7b00;
 }
+
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto/Roboto-Regular.ttf);
 }
+
 @font-face {
     font-family: Roboto;
     src: url(fonts/Roboto/Roboto-Bold.ttf);
     font-weight: bold;
 }
+
 @font-face {
     font-family: Fira Code;
     src: url(fonts/Fira_Code/FiraCode-Regular.ttf);
 }
+
 @font-face {
     font-family: Fira Code;
     src: url(fonts/Fira_Code/FiraCode-Bold.ttf);
@@ -21,7 +25,7 @@
 }
 
 body {
-    margin:0 auto;
+    margin: 0 auto;
     max-width: 7.7in;
     margin-top: 5vw;
     margin-bottom: 5vw
@@ -34,13 +38,14 @@ body {
     line-height: 15pt;
 }
 
-body, button {
+body,
+button {
     font-size: 10pt;
     font-family: Roboto;
 }
 
 #title {
-    text-align: center;
+    text-align: left;
     font-family: Fira Code;
 }
 
@@ -153,7 +158,8 @@ button {
     clear: both;
 } */
 
-img, video {
+img,
+video {
     display: block;
     max-width: 100%;
     transition: opacity .3s ease-in-out;
@@ -162,7 +168,7 @@ img, video {
 
 video {
     object-fit: cover;
-    aspect-ratio : 1 / 1;
+    aspect-ratio: 1 / 1;
 }
 
 .display {
@@ -187,12 +193,12 @@ video {
     overflow: hidden;
 }
 
-#c1 > div > .caption {
+#c1>div>.caption {
     right: calc(100% + .8em);
     text-align: right;
 }
 
-#c2 > div > .caption {
+#c2>div>.caption {
     left: calc(100% + .8em);
     text-align: left;
 }
@@ -209,7 +215,8 @@ video {
     line-height: 1em;
 }
 
-.caption > img, .caption > video {
+.caption>img,
+.caption>video {
     padding-bottom: .8em;
 }
 
@@ -224,11 +231,11 @@ video {
     font-family: Fira Code;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     padding: 0;
 }
 
-.index > li {
+.index>li {
     padding: 2px 0;
 }
 
@@ -237,7 +244,12 @@ video {
     min-height: 100vh;
     min-width: 100vw;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+.header_img {
+    width: 40vw;
+    margin-right: 3em;
 }
