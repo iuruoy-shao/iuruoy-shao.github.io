@@ -96,8 +96,7 @@ b {
 
 a {
     color: black;
-    text-decoration: none;
-    font-style: italic;
+    /* text-decoration: none; */
 }
 
 a:hover {
@@ -243,6 +242,11 @@ video {
 
 .index>li {
     padding: 2px 0;
+}
+
+.index a, #title a {
+    text-decoration: none;
+    font-style: italic;
 }
 
 .github {
