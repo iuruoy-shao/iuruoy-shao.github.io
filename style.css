@@ -183,6 +183,8 @@ video {
     opacity: 0;
     position: absolute;
     width: 20vw;
+    max-height: 80vh;
+    overflow-y: auto;
     bottom: 1.5em;
 }
 
@@ -197,6 +199,7 @@ video {
 
 #c1>div>.caption {
     right: calc(100% + .8em);
+    padding-right: .2em;
     text-align: right;
 }
 
@@ -215,6 +218,11 @@ video {
 .description {
     bottom: 22pt;
     line-height: 1em;
+}
+
+.statement {
+    margin-top: .8em;
+    line-height: 1.2em;
 }
 
 .caption>img,
