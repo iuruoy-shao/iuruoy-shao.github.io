@@ -52,7 +52,7 @@ button {
     padding-bottom: 15pt;
 }
 
-#title>p>b{
+#title>p>b, #title>h1{
     font-size: 15pt;
 }
 
@@ -82,13 +82,13 @@ ul.b {
     padding-left: 25pt
 }
 
-h1 {
+/* h1 {
     text-transform: uppercase;
     color: var(--main-accent);
     font-family: var(--font-display);
     font-size: 12pt;
     line-height: 18pt;
-}
+} */
 
 b {
     font-family: var(--font-display);
